@@ -1,0 +1,15 @@
+git init 
+git add.
+git commit -m "messages here"
+git push -u origin main
+
+// update file
+
+git add . 
+git commit -m "messages"
+git push
+
+// troubleshoot and syncing 
+
+git pull origin-main --rebase 
+git push -u origin main --force 
