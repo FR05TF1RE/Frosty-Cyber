@@ -16,3 +16,53 @@ marquee{
 footer {
     color: pink;
 }
+
+p{
+    font-style: italic;
+    text-align: center;
+    color: pink;
+}
+
+a{
+    font-style: italic;
+    text-align: center;
+    color: pink;
+}
+
+h1{
+    color: pink;
+    text-align: center;
+}
+
+main{
+    color: pink;
+    text-align: center;
+}   
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    overflow: hidden;
+}
+
+.banner-img {
+    max-width: 100%; /* Prevents the image from overflowing the screen */
+    height: auto;
+    display: block;
+    margin: 0 auto;   /* Fallback horizontal centering */
+    border-bottom: 4px solid #34495e;
+}
+
+button, .btn {
+    background-color: #0b1d3a; /* Dark blue background */
+    color: #ff69b4;            /* Pink text color */
+    border: 2px solid #ff69b4;  /* Optional: Matching pink border */
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
