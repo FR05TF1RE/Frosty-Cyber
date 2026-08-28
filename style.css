@@ -13,6 +13,20 @@ marquee{
     text-align: center;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;       /* Centers main section horizontally */
+    text-align: center;   /* Centers inline elements & text */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 footer {
     color: pink;
 }
