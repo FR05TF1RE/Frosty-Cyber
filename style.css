@@ -6,6 +6,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 marquee{
